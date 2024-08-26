@@ -1,0 +1,140 @@
+.card {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 90%;
+	max-width: 600px;
+	margin: 20px;
+	position: relative;
+}
+
+.logout-btn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: #e74c3c;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.logout-btn:hover {
+	background-color: #c0392b;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card h2 {
+	margin-bottom: 20px;
+	color: #333;
+	font-size: 24px;
+	text-align: center;
+}
+
+.habit-form {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.habit-form input {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.habit-form .btn {
+	margin-left: 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.habit-form .btn:hover {
+	background-color: #0056b3;
+}
+
+.habit-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.habit-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	background-color: #fafafa;
+	border-radius: 5px;
+}
+
+.habit-item:last-child {
+	border-bottom: none;
+}
+
+.habit-item input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+.habit-name {
+	flex: 1;
+	font-size: 18px;
+}
+
+.habit-actions {
+	display: flex;
+	align-items: center;
+}
+
+.habit-actions .streak {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	font-size: 18px;
+	color: #f39c12;
+}
+
+.habit-actions .btn-secondary {
+	background-color: #e74c3c;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.habit-actions .btn-secondary:hover {
+	background-color: #c0392b;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 8px;
+	background-color: #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.progress-bar-fill {
+	height: 100%;
+	background-color: #28a745;
+	transition: width 0.3s ease;
+}
